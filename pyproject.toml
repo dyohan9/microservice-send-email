@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "microservice-send-email"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Yohan <dyohan9@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+nameko = "^2.13.0"
+django-environ = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
